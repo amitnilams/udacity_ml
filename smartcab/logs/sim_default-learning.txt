@@ -3,171 +3,129 @@
 \-----------------------------------------
 
 {'inputs': {'light': 'green', 'oncoming': None, 'right': None, 'left': None}, 'waypoint': 'right'}
- -- forward : 0.00
- -- None : 0.00
- -- right : 0.00
+ -- forward : 0.28
+ -- None : -4.22
+ -- right : 1.60
  -- left : 0.00
 
 {'inputs': {'light': 'red', 'oncoming': 'left', 'right': None, 'left': 'forward'}, 'waypoint': 'left'}
  -- forward : 0.00
- -- None : 0.00
- -- right : -10.31
+ -- None : 1.83
+ -- right : 0.00
  -- left : 0.00
 
-{'inputs': {'light': 'green', 'oncoming': 'right', 'right': 'forward', 'left': 'left'}, 'waypoint': 'left'}
+{'inputs': {'light': 'green', 'oncoming': 'left', 'right': 'forward', 'left': 'right'}, 'waypoint': 'forward'}
  -- forward : 0.00
  -- None : 0.00
  -- right : 0.00
  -- left : 0.00
 
-{'inputs': {'light': 'green', 'oncoming': 'left', 'right': 'left', 'left': 'forward'}, 'waypoint': 'right'}
+{'inputs': {'light': 'green', 'oncoming': 'left', 'right': None, 'left': 'left'}, 'waypoint': 'forward'}
  -- forward : 0.00
- -- None : 0.00
- -- right : 0.63
- -- left : 0.00
-
-{'inputs': {'light': 'green', 'oncoming': 'right', 'right': 'right', 'left': None}, 'waypoint': 'forward'}
- -- forward : 0.00
- -- None : -2.12
+ -- None : -2.32
  -- right : 0.00
  -- left : 0.00
-
-{'inputs': {'light': 'red', 'oncoming': 'forward', 'right': 'forward', 'left': None}, 'waypoint': 'right'}
- -- forward : 0.00
- -- None : 0.00
- -- right : 0.00
- -- left : -20.11
 
 {'inputs': {'light': 'red', 'oncoming': 'forward', 'right': 'forward', 'left': None}, 'waypoint': 'forward'}
- -- forward : -20.14
- -- None : 0.00
+ -- forward : 0.00
+ -- None : 1.20
  -- right : 0.00
- -- left : 0.00
+ -- left : -20.04
 
 {'inputs': {'light': 'green', 'oncoming': None, 'right': None, 'left': 'right'}, 'waypoint': 'right'}
  -- forward : 0.00
  -- None : 0.00
- -- right : 0.00
+ -- right : 0.66
  -- left : 0.00
 
-{'inputs': {'light': 'green', 'oncoming': 'forward', 'right': 'right', 'left': 'left'}, 'waypoint': 'left'}
+{'inputs': {'light': 'red', 'oncoming': 'left', 'right': 'forward', 'left': 'left'}, 'waypoint': 'left'}
  -- forward : 0.00
  -- None : 0.00
  -- right : 0.00
- -- left : -5.06
+ -- left : -19.52
 
-{'inputs': {'light': 'red', 'oncoming': None, 'right': None, 'left': 'right'}, 'waypoint': 'left'}
- -- forward : 0.00
+{'inputs': {'light': 'red', 'oncoming': 'right', 'right': 'forward', 'left': None}, 'waypoint': 'left'}
+ -- forward : -19.88
  -- None : 0.00
- -- right : 0.00
+ -- right : 0.09
  -- left : 0.00
-
-{'inputs': {'light': 'red', 'oncoming': None, 'right': 'forward', 'left': 'right'}, 'waypoint': 'forward'}
- -- forward : 0.00
- -- None : 0.00
- -- right : 0.00
- -- left : 0.00
-
-{'inputs': {'light': 'green', 'oncoming': None, 'right': 'right', 'left': 'left'}, 'waypoint': 'forward'}
- -- forward : 0.00
- -- None : 0.00
- -- right : 0.00
- -- left : -5.21
 
 {'inputs': {'light': 'green', 'oncoming': None, 'right': None, 'left': 'forward'}, 'waypoint': 'forward'}
- -- forward : 0.98
+ -- forward : 1.44
  -- None : 0.00
  -- right : 0.00
- -- left : 0.00
+ -- left : 0.31
 
-{'inputs': {'light': 'red', 'oncoming': 'forward', 'right': 'right', 'left': 'forward'}, 'waypoint': 'left'}
- -- forward : 0.00
- -- None : 0.70
- -- right : 0.00
- -- left : 0.00
-
-{'inputs': {'light': 'green', 'oncoming': 'right', 'right': 'left', 'left': None}, 'waypoint': 'left'}
- -- forward : 0.00
+{'inputs': {'light': 'green', 'oncoming': 'forward', 'right': None, 'left': 'forward'}, 'waypoint': 'right'}
+ -- forward : 0.15
  -- None : 0.00
- -- right : 0.00
+ -- right : 0.80
  -- left : 0.00
 
 {'inputs': {'light': 'green', 'oncoming': 'left', 'right': None, 'left': 'forward'}, 'waypoint': 'right'}
- -- forward : 0.32
+ -- forward : 0.00
  -- None : 0.00
  -- right : 0.00
  -- left : 0.00
 
 {'inputs': {'light': 'green', 'oncoming': 'left', 'right': None, 'left': None}, 'waypoint': 'forward'}
  -- forward : 0.00
- -- None : 0.00
- -- right : 0.00
+ -- None : -3.96
+ -- right : 0.22
  -- left : 0.00
 
 {'inputs': {'light': 'red', 'oncoming': None, 'right': 'left', 'left': None}, 'waypoint': 'right'}
  -- forward : 0.00
  -- None : 0.00
- -- right : 0.00
+ -- right : 1.40
  -- left : 0.00
 
-{'inputs': {'light': 'green', 'oncoming': 'right', 'right': 'left', 'left': 'forward'}, 'waypoint': 'left'}
- -- forward : 0.00
- -- None : 0.00
- -- right : 0.00
- -- left : -19.83
-
-{'inputs': {'light': 'green', 'oncoming': 'forward', 'right': None, 'left': 'right'}, 'waypoint': 'left'}
- -- forward : 0.00
+{'inputs': {'light': 'red', 'oncoming': 'forward', 'right': 'left', 'left': None}, 'waypoint': 'forward'}
+ -- forward : -5.10
  -- None : 0.00
  -- right : 0.00
  -- left : 0.00
 
 {'inputs': {'light': 'red', 'oncoming': None, 'right': None, 'left': None}, 'waypoint': 'forward'}
- -- forward : 0.00
+ -- forward : -5.06
+ -- None : 2.58
+ -- right : -0.11
+ -- left : -5.48
+
+{'inputs': {'light': 'red', 'oncoming': 'left', 'right': None, 'left': 'right'}, 'waypoint': 'right'}
+ -- forward : -4.70
  -- None : 0.00
  -- right : 0.00
  -- left : 0.00
 
-{'inputs': {'light': 'red', 'oncoming': 'left', 'right': None, 'left': 'right'}, 'waypoint': 'right'}
+{'inputs': {'light': 'red', 'oncoming': 'right', 'right': 'left', 'left': None}, 'waypoint': 'left'}
  -- forward : 0.00
  -- None : 0.00
- -- right : 0.00
- -- left : -5.04
-
-{'inputs': {'light': 'red', 'oncoming': 'forward', 'right': 'forward', 'left': 'forward'}, 'waypoint': 'left'}
- -- forward : 0.00
- -- None : 1.44
  -- right : 0.00
  -- left : 0.00
 
 {'inputs': {'light': 'green', 'oncoming': 'left', 'right': None, 'left': None}, 'waypoint': 'left'}
  -- forward : 0.00
- -- None : 0.00
- -- right : 0.00
+ -- None : -3.28
+ -- right : 0.32
  -- left : 0.00
 
 {'inputs': {'light': 'green', 'oncoming': 'forward', 'right': 'left', 'left': None}, 'waypoint': 'forward'}
  -- forward : 0.00
- -- None : -2.58
- -- right : 0.00
- -- left : 0.00
-
-{'inputs': {'light': 'green', 'oncoming': 'left', 'right': None, 'left': 'left'}, 'waypoint': 'forward'}
- -- forward : 0.00
  -- None : 0.00
- -- right : 0.43
- -- left : 0.00
+ -- right : 0.00
+ -- left : -0.20
 
 {'inputs': {'light': 'red', 'oncoming': 'left', 'right': None, 'left': None}, 'waypoint': 'forward'}
- -- forward : 0.00
+ -- forward : -5.00
  -- None : 0.00
- -- right : 0.00
- -- left : 0.00
+ -- right : 1.26
+ -- left : -8.89
 
-{'inputs': {'light': 'green', 'oncoming': 'right', 'right': None, 'left': None}, 'waypoint': 'forward'}
+{'inputs': {'light': 'green', 'oncoming': 'left', 'right': 'left', 'left': None}, 'waypoint': 'forward'}
  -- forward : 0.00
- -- None : 0.00
- -- right : 0.00
+ -- None : -2.38
+ -- right : 0.44
  -- left : 0.00
 
 {'inputs': {'light': 'green', 'oncoming': None, 'right': 'right', 'left': None}, 'waypoint': 'left'}
@@ -176,75 +134,69 @@
  -- right : 0.00
  -- left : 0.00
 
+{'inputs': {'light': 'green', 'oncoming': 'right', 'right': 'forward', 'left': None}, 'waypoint': 'right'}
+ -- forward : 0.00
+ -- None : 0.00
+ -- right : 0.00
+ -- left : -0.02
+
+{'inputs': {'light': 'green', 'oncoming': 'left', 'right': 'left', 'left': 'right'}, 'waypoint': 'left'}
+ -- forward : 0.00
+ -- None : -2.72
+ -- right : 0.00
+ -- left : 0.00
+
 {'inputs': {'light': 'green', 'oncoming': 'forward', 'right': 'forward', 'left': None}, 'waypoint': 'left'}
  -- forward : 0.00
  -- None : 0.00
  -- right : 0.00
- -- left : 0.00
+ -- left : 0.74
 
-{'inputs': {'light': 'red', 'oncoming': 'forward', 'right': 'left', 'left': 'left'}, 'waypoint': 'left'}
+{'inputs': {'light': 'red', 'oncoming': 'left', 'right': 'right', 'left': 'forward'}, 'waypoint': 'right'}
  -- forward : 0.00
  -- None : 0.00
- -- right : 0.00
- -- left : 0.00
-
-{'inputs': {'light': 'green', 'oncoming': None, 'right': 'forward', 'left': 'forward'}, 'waypoint': 'forward'}
- -- forward : 0.00
- -- None : 0.00
- -- right : 0.73
- -- left : 0.00
-
-{'inputs': {'light': 'red', 'oncoming': 'right', 'right': 'right', 'left': 'left'}, 'waypoint': 'left'}
- -- forward : 0.00
- -- None : 0.00
- -- right : 0.00
- -- left : 0.00
-
-{'inputs': {'light': 'green', 'oncoming': 'left', 'right': 'right', 'left': 'left'}, 'waypoint': 'forward'}
- -- forward : 0.00
- -- None : 0.00
- -- right : 0.00
+ -- right : -10.01
  -- left : 0.00
 
 {'inputs': {'light': 'red', 'oncoming': 'right', 'right': None, 'left': 'left'}, 'waypoint': 'left'}
  -- forward : 0.00
- -- None : 0.00
+ -- None : 1.02
  -- right : 0.00
  -- left : 0.00
 
-{'inputs': {'light': 'green', 'oncoming': 'forward', 'right': 'right', 'left': None}, 'waypoint': 'right'}
- -- forward : 0.00
+{'inputs': {'light': 'green', 'oncoming': None, 'right': None, 'left': 'left'}, 'waypoint': 'right'}
+ -- forward : -0.07
  -- None : 0.00
- -- right : 0.00
- -- left : -5.32
+ -- right : 1.86
+ -- left : 0.00
 
 {'inputs': {'light': 'red', 'oncoming': 'right', 'right': None, 'left': None}, 'waypoint': 'right'}
  -- forward : 0.00
- -- None : 0.00
+ -- None : 0.24
  -- right : 0.00
- -- left : -19.72
+ -- left : 0.00
 
 {'inputs': {'light': 'red', 'oncoming': None, 'right': 'left', 'left': 'right'}, 'waypoint': 'left'}
  -- forward : 0.00
- -- None : 1.27
+ -- None : 0.97
  -- right : 0.00
  -- left : 0.00
 
 {'inputs': {'light': 'green', 'oncoming': None, 'right': 'left', 'left': 'left'}, 'waypoint': 'forward'}
- -- forward : 0.00
+ -- forward : 0.25
  -- None : 0.00
  -- right : 0.00
  -- left : 0.00
 
 {'inputs': {'light': 'green', 'oncoming': None, 'right': 'left', 'left': None}, 'waypoint': 'left'}
- -- forward : 0.00
- -- None : 0.00
+ -- forward : 0.36
+ -- None : -2.83
  -- right : 0.00
- -- left : 0.00
+ -- left : 1.99
 
 {'inputs': {'light': 'red', 'oncoming': 'forward', 'right': None, 'left': 'left'}, 'waypoint': 'right'}
- -- forward : 0.00
- -- None : 0.05
+ -- forward : -5.03
+ -- None : 0.00
  -- right : 0.00
  -- left : 0.00
 
@@ -252,237 +204,339 @@
  -- forward : 0.00
  -- None : 0.00
  -- right : 0.00
+ -- left : -20.32
+
+{'inputs': {'light': 'green', 'oncoming': 'forward', 'right': 'right', 'left': 'forward'}, 'waypoint': 'left'}
+ -- forward : 0.00
+ -- None : 0.00
+ -- right : 0.00
  -- left : 0.00
 
 {'inputs': {'light': 'red', 'oncoming': 'forward', 'right': None, 'left': 'right'}, 'waypoint': 'right'}
  -- forward : 0.00
- -- None : 0.68
+ -- None : 0.65
  -- right : 0.00
+ -- left : 0.00
+
+{'inputs': {'light': 'red', 'oncoming': 'forward', 'right': 'right', 'left': 'left'}, 'waypoint': 'right'}
+ -- forward : 0.00
+ -- None : 0.00
+ -- right : 0.70
  -- left : 0.00
 
 {'inputs': {'light': 'green', 'oncoming': None, 'right': 'right', 'left': 'forward'}, 'waypoint': 'right'}
  -- forward : 0.00
- -- None : 0.00
+ -- None : -4.34
  -- right : 0.00
- -- left : -20.00
+ -- left : 0.00
 
-{'inputs': {'light': 'red', 'oncoming': 'left', 'right': None, 'left': 'left'}, 'waypoint': 'right'}
+{'inputs': {'light': 'green', 'oncoming': None, 'right': 'left', 'left': 'right'}, 'waypoint': 'right'}
  -- forward : 0.00
- -- None : 0.45
+ -- None : 0.00
+ -- right : 1.29
+ -- left : 0.00
+
+{'inputs': {'light': 'red', 'oncoming': None, 'right': None, 'left': 'right'}, 'waypoint': 'left'}
+ -- forward : 0.00
+ -- None : 0.78
+ -- right : 0.00
+ -- left : 0.00
+
+{'inputs': {'light': 'red', 'oncoming': None, 'right': 'forward', 'left': 'forward'}, 'waypoint': 'right'}
+ -- forward : 0.00
+ -- None : 0.22
  -- right : 0.00
  -- left : 0.00
 
 {'inputs': {'light': 'green', 'oncoming': None, 'right': 'left', 'left': 'forward'}, 'waypoint': 'left'}
  -- forward : 0.00
  -- None : 0.00
- -- right : 0.00
- -- left : -19.76
+ -- right : -0.05
+ -- left : 0.00
 
-{'inputs': {'light': 'red', 'oncoming': 'forward', 'right': 'left', 'left': 'right'}, 'waypoint': 'forward'}
+{'inputs': {'light': 'red', 'oncoming': 'left', 'right': 'left', 'left': 'right'}, 'waypoint': 'left'}
  -- forward : 0.00
  -- None : 0.00
  -- right : 0.00
- -- left : 0.00
+ -- left : -5.04
 
 {'inputs': {'light': 'green', 'oncoming': None, 'right': None, 'left': 'forward'}, 'waypoint': 'left'}
- -- forward : 0.00
+ -- forward : -0.07
  -- None : 0.00
- -- right : 0.00
- -- left : 0.00
-
-{'inputs': {'light': 'green', 'oncoming': 'left', 'right': None, 'left': 'right'}, 'waypoint': 'forward'}
- -- forward : 0.00
- -- None : -2.58
- -- right : 0.00
+ -- right : 0.53
  -- left : 0.00
 
 {'inputs': {'light': 'red', 'oncoming': None, 'right': None, 'left': 'forward'}, 'waypoint': 'left'}
- -- forward : 0.00
- -- None : 0.00
+ -- forward : -19.63
+ -- None : 0.62
  -- right : 0.00
  -- left : 0.00
 
-{'inputs': {'light': 'green', 'oncoming': None, 'right': None, 'left': 'left'}, 'waypoint': 'right'}
- -- forward : 0.60
- -- None : 0.00
- -- right : 0.00
- -- left : 0.00
-
-{'inputs': {'light': 'green', 'oncoming': 'right', 'right': None, 'left': 'left'}, 'waypoint': 'left'}
- -- forward : 0.00
- -- None : 0.00
- -- right : 0.08
- -- left : 0.00
-
-{'inputs': {'light': 'green', 'oncoming': 'left', 'right': 'right', 'left': None}, 'waypoint': 'left'}
- -- forward : 0.00
- -- None : 0.00
- -- right : 0.81
- -- left : 0.00
-
-{'inputs': {'light': 'green', 'oncoming': None, 'right': 'forward', 'left': None}, 'waypoint': 'forward'}
- -- forward : 0.00
- -- None : 0.00
- -- right : 0.00
- -- left : 0.00
-
-{'inputs': {'light': 'green', 'oncoming': 'right', 'right': None, 'left': None}, 'waypoint': 'right'}
- -- forward : 0.00
- -- None : 0.00
- -- right : 0.00
- -- left : 0.00
-
-{'inputs': {'light': 'green', 'oncoming': None, 'right': None, 'left': 'left'}, 'waypoint': 'left'}
- -- forward : -0.09
- -- None : 0.00
- -- right : 0.00
- -- left : 0.00
-
-{'inputs': {'light': 'green', 'oncoming': 'forward', 'right': None, 'left': 'left'}, 'waypoint': 'right'}
- -- forward : 0.00
- -- None : 0.00
- -- right : 0.00
- -- left : 0.00
-
-{'inputs': {'light': 'green', 'oncoming': None, 'right': 'left', 'left': 'left'}, 'waypoint': 'left'}
- -- forward : 0.00
- -- None : 0.00
- -- right : 0.00
- -- left : 0.00
-
-{'inputs': {'light': 'green', 'oncoming': None, 'right': None, 'left': None}, 'waypoint': 'left'}
- -- forward : 0.00
- -- None : 0.00
- -- right : 0.00
- -- left : 0.00
-
-{'inputs': {'light': 'green', 'oncoming': 'right', 'right': 'left', 'left': 'forward'}, 'waypoint': 'right'}
- -- forward : 0.00
- -- None : 0.00
- -- right : 0.00
- -- left : -20.24
-
-{'inputs': {'light': 'red', 'oncoming': 'forward', 'right': 'right', 'left': None}, 'waypoint': 'forward'}
- -- forward : 0.00
- -- None : 0.00
- -- right : 0.00
- -- left : 0.00
-
-{'inputs': {'light': 'green', 'oncoming': 'left', 'right': 'left', 'left': None}, 'waypoint': 'right'}
- -- forward : 0.00
- -- None : 0.00
- -- right : 0.00
- -- left : 0.00
-
-{'inputs': {'light': 'green', 'oncoming': 'right', 'right': None, 'left': 'forward'}, 'waypoint': 'left'}
- -- forward : 0.00
- -- None : 0.00
- -- right : 0.00
- -- left : 0.00
-
-{'inputs': {'light': 'green', 'oncoming': None, 'right': 'forward', 'left': 'right'}, 'waypoint': 'right'}
- -- forward : 0.00
- -- None : 0.00
- -- right : 0.00
- -- left : 0.00
-
-{'inputs': {'light': 'green', 'oncoming': 'left', 'right': 'right', 'left': None}, 'waypoint': 'right'}
- -- forward : 0.00
- -- None : 0.00
- -- right : 0.64
- -- left : 0.00
-
-{'inputs': {'light': 'red', 'oncoming': None, 'right': 'forward', 'left': 'left'}, 'waypoint': 'right'}
- -- forward : 0.00
- -- None : -0.31
- -- right : 0.00
- -- left : 0.00
-
-{'inputs': {'light': 'red', 'oncoming': None, 'right': 'forward', 'left': None}, 'waypoint': 'left'}
- -- forward : 0.00
- -- None : 0.33
- -- right : 0.00
- -- left : 0.00
-
-{'inputs': {'light': 'red', 'oncoming': 'forward', 'right': None, 'left': 'left'}, 'waypoint': 'left'}
- -- forward : 0.00
- -- None : 0.00
- -- right : 0.00
- -- left : 0.00
-
-{'inputs': {'light': 'red', 'oncoming': None, 'right': None, 'left': 'forward'}, 'waypoint': 'forward'}
- -- forward : 0.00
- -- None : 0.00
- -- right : 0.00
- -- left : 0.00
-
-{'inputs': {'light': 'red', 'oncoming': 'forward', 'right': 'left', 'left': None}, 'waypoint': 'right'}
- -- forward : 0.00
- -- None : 0.42
- -- right : 0.00
- -- left : 0.00
-
-{'inputs': {'light': 'green', 'oncoming': 'left', 'right': 'forward', 'left': None}, 'waypoint': 'right'}
+{'inputs': {'light': 'red', 'oncoming': 'left', 'right': None, 'left': 'left'}, 'waypoint': 'forward'}
  -- forward : 0.00
  -- None : 0.00
  -- right : 0.10
  -- left : 0.00
 
+{'inputs': {'light': 'red', 'oncoming': 'left', 'right': 'left', 'left': 'left'}, 'waypoint': 'left'}
+ -- forward : 0.00
+ -- None : 0.00
+ -- right : 0.05
+ -- left : 0.00
+
+{'inputs': {'light': 'green', 'oncoming': 'right', 'right': None, 'left': 'forward'}, 'waypoint': 'right'}
+ -- forward : 0.00
+ -- None : 0.00
+ -- right : 0.00
+ -- left : 0.00
+
+{'inputs': {'light': 'green', 'oncoming': 'right', 'right': None, 'left': 'right'}, 'waypoint': 'forward'}
+ -- forward : 0.72
+ -- None : 0.00
+ -- right : 0.00
+ -- left : 0.00
+
+{'inputs': {'light': 'green', 'oncoming': 'left', 'right': 'right', 'left': None}, 'waypoint': 'left'}
+ -- forward : 0.00
+ -- None : 0.00
+ -- right : 0.57
+ -- left : 0.89
+
+{'inputs': {'light': 'green', 'oncoming': None, 'right': 'forward', 'left': None}, 'waypoint': 'forward'}
+ -- forward : 0.00
+ -- None : -2.18
+ -- right : 0.58
+ -- left : -0.07
+
+{'inputs': {'light': 'green', 'oncoming': 'right', 'right': None, 'left': None}, 'waypoint': 'right'}
+ -- forward : 0.72
+ -- None : 0.00
+ -- right : 0.00
+ -- left : 0.00
+
+{'inputs': {'light': 'green', 'oncoming': None, 'right': None, 'left': 'left'}, 'waypoint': 'left'}
+ -- forward : 0.00
+ -- None : 0.00
+ -- right : 0.52
+ -- left : 0.00
+
+{'inputs': {'light': 'green', 'oncoming': None, 'right': 'left', 'left': 'left'}, 'waypoint': 'left'}
+ -- forward : 0.00
+ -- None : 0.00
+ -- right : 0.22
+ -- left : 1.24
+
+{'inputs': {'light': 'green', 'oncoming': None, 'right': None, 'left': None}, 'waypoint': 'left'}
+ -- forward : 0.40
+ -- None : -2.56
+ -- right : 0.12
+ -- left : 1.69
+
+{'inputs': {'light': 'red', 'oncoming': 'forward', 'right': 'right', 'left': None}, 'waypoint': 'forward'}
+ -- forward : 0.00
+ -- None : 0.00
+ -- right : 0.00
+ -- left : -4.75
+
+{'inputs': {'light': 'green', 'oncoming': 'left', 'right': 'left', 'left': None}, 'waypoint': 'right'}
+ -- forward : 0.00
+ -- None : 0.00
+ -- right : 1.03
+ -- left : 0.00
+
+{'inputs': {'light': 'green', 'oncoming': 'right', 'right': None, 'left': 'forward'}, 'waypoint': 'left'}
+ -- forward : 0.00
+ -- None : 0.00
+ -- right : -0.36
+ -- left : 0.00
+
+{'inputs': {'light': 'red', 'oncoming': None, 'right': None, 'left': 'right'}, 'waypoint': 'forward'}
+ -- forward : 0.00
+ -- None : 0.71
+ -- right : 0.00
+ -- left : 0.00
+
+{'inputs': {'light': 'green', 'oncoming': None, 'right': 'forward', 'left': None}, 'waypoint': 'left'}
+ -- forward : 0.88
+ -- None : 0.00
+ -- right : 0.00
+ -- left : 0.00
+
+{'inputs': {'light': 'red', 'oncoming': None, 'right': 'forward', 'left': 'left'}, 'waypoint': 'right'}
+ -- forward : -20.09
+ -- None : 1.06
+ -- right : 0.00
+ -- left : -20.31
+
+{'inputs': {'light': 'red', 'oncoming': None, 'right': 'forward', 'left': None}, 'waypoint': 'left'}
+ -- forward : -19.63
+ -- None : 0.00
+ -- right : 1.22
+ -- left : 0.00
+
+{'inputs': {'light': 'red', 'oncoming': 'forward', 'right': None, 'left': 'left'}, 'waypoint': 'left'}
+ -- forward : 0.00
+ -- None : 0.00
+ -- right : 0.27
+ -- left : 0.00
+
+{'inputs': {'light': 'red', 'oncoming': None, 'right': None, 'left': 'forward'}, 'waypoint': 'forward'}
+ -- forward : -20.44
+ -- None : 1.68
+ -- right : -10.00
+ -- left : 0.00
+
+{'inputs': {'light': 'red', 'oncoming': 'forward', 'right': 'left', 'left': None}, 'waypoint': 'right'}
+ -- forward : 0.00
+ -- None : 0.72
+ -- right : 0.00
+ -- left : 0.00
+
 {'inputs': {'light': 'green', 'oncoming': 'left', 'right': 'forward', 'left': 'forward'}, 'waypoint': 'left'}
  -- forward : 0.00
  -- None : 0.00
- -- right : 0.00
+ -- right : 0.25
  -- left : 0.00
 
 {'inputs': {'light': 'red', 'oncoming': None, 'right': None, 'left': 'left'}, 'waypoint': 'right'}
- -- forward : 0.00
- -- None : 0.00
+ -- forward : -5.48
+ -- None : 0.08
  -- right : 0.00
- -- left : 0.00
+ -- left : -4.78
 
 {'inputs': {'light': 'red', 'oncoming': 'right', 'right': None, 'left': None}, 'waypoint': 'forward'}
  -- forward : 0.00
- -- None : 0.58
+ -- None : 0.55
  -- right : 0.00
  -- left : 0.00
 
 {'inputs': {'light': 'red', 'oncoming': None, 'right': None, 'left': 'left'}, 'waypoint': 'left'}
+ -- forward : -8.01
+ -- None : 1.49
+ -- right : 0.40
+ -- left : 0.00
+
+{'inputs': {'light': 'green', 'oncoming': 'right', 'right': None, 'left': None}, 'waypoint': 'left'}
  -- forward : 0.00
  -- None : 0.00
- -- right : 0.00
+ -- right : 0.38
  -- left : 0.00
 
 {'inputs': {'light': 'green', 'oncoming': None, 'right': 'forward', 'left': 'left'}, 'waypoint': 'right'}
- -- forward : 0.00
- -- None : 0.00
- -- right : 0.00
- -- left : 0.00
-
-{'inputs': {'light': 'red', 'oncoming': 'right', 'right': 'left', 'left': 'right'}, 'waypoint': 'forward'}
- -- forward : 0.00
- -- None : 0.00
+ -- forward : -0.25
+ -- None : -2.48
  -- right : 0.00
  -- left : 0.00
 
 {'inputs': {'light': 'red', 'oncoming': None, 'right': 'left', 'left': None}, 'waypoint': 'forward'}
- -- forward : 0.00
+ -- forward : -5.20
  -- None : 0.00
- -- right : 0.00
+ -- right : 0.96
  -- left : 0.00
 
 {'inputs': {'light': 'red', 'oncoming': None, 'right': 'forward', 'left': None}, 'waypoint': 'forward'}
+ -- forward : -20.34
+ -- None : 0.00
+ -- right : 0.00
+ -- left : -19.94
+
+{'inputs': {'light': 'green', 'oncoming': 'forward', 'right': None, 'left': None}, 'waypoint': 'right'}
  -- forward : 0.00
+ -- None : -2.95
+ -- right : 1.58
+ -- left : 0.00
+
+{'inputs': {'light': 'red', 'oncoming': 'left', 'right': 'forward', 'left': None}, 'waypoint': 'right'}
+ -- forward : -19.74
+ -- None : 0.00
+ -- right : 1.10
+ -- left : 0.00
+
+{'inputs': {'light': 'green', 'oncoming': None, 'right': None, 'left': None}, 'waypoint': 'forward'}
+ -- forward : 0.00
+ -- None : -4.00
+ -- right : 1.05
+ -- left : 0.12
+
+{'inputs': {'light': 'green', 'oncoming': None, 'right': 'forward', 'left': 'forward'}, 'waypoint': 'left'}
+ -- forward : 0.38
+ -- None : -2.76
+ -- right : 0.00
+ -- left : 0.00
+
+{'inputs': {'light': 'green', 'oncoming': 'left', 'right': 'forward', 'left': 'left'}, 'waypoint': 'right'}
+ -- forward : 0.29
  -- None : 0.00
  -- right : 0.00
  -- left : 0.00
 
-{'inputs': {'light': 'green', 'oncoming': 'forward', 'right': None, 'left': None}, 'waypoint': 'right'}
+{'inputs': {'light': 'red', 'oncoming': None, 'right': None, 'left': None}, 'waypoint': 'right'}
+ -- forward : 0.00
+ -- None : 0.17
+ -- right : 1.29
+ -- left : 0.00
+
+{'inputs': {'light': 'red', 'oncoming': None, 'right': None, 'left': 'right'}, 'waypoint': 'right'}
+ -- forward : 0.00
+ -- None : 0.00
+ -- right : 0.82
+ -- left : 0.00
+
+{'inputs': {'light': 'red', 'oncoming': None, 'right': 'left', 'left': 'left'}, 'waypoint': 'left'}
+ -- forward : 0.00
+ -- None : 0.12
+ -- right : 0.00
+ -- left : 0.00
+
+{'inputs': {'light': 'green', 'oncoming': 'forward', 'right': 'forward', 'left': 'forward'}, 'waypoint': 'left'}
  -- forward : 0.00
  -- None : 0.00
  -- right : 0.00
- -- left : -4.74
+ -- left : 0.56
 
-{'inputs': {'light': 'red', 'oncoming': 'forward', 'right': 'forward', 'left': 'left'}, 'waypoint': 'left'}
+{'inputs': {'light': 'green', 'oncoming': 'left', 'right': 'left', 'left': 'left'}, 'waypoint': 'left'}
+ -- forward : 0.00
+ -- None : -2.84
+ -- right : 0.00
+ -- left : 0.00
+
+{'inputs': {'light': 'green', 'oncoming': 'right', 'right': 'right', 'left': 'left'}, 'waypoint': 'left'}
+ -- forward : 0.47
+ -- None : 0.00
+ -- right : 0.00
+ -- left : 0.00
+
+{'inputs': {'light': 'green', 'oncoming': 'left', 'right': None, 'left': 'left'}, 'waypoint': 'left'}
+ -- forward : 0.80
+ -- None : 0.00
+ -- right : 0.00
+ -- left : 0.00
+
+{'inputs': {'light': 'red', 'oncoming': None, 'right': 'right', 'left': None}, 'waypoint': 'left'}
+ -- forward : -4.67
+ -- None : 0.00
+ -- right : 0.00
+ -- left : 0.00
+
+{'inputs': {'light': 'green', 'oncoming': None, 'right': 'forward', 'left': 'right'}, 'waypoint': 'forward'}
+ -- forward : 0.00
+ -- None : -2.43
+ -- right : 0.00
+ -- left : 0.00
+
+{'inputs': {'light': 'green', 'oncoming': 'left', 'right': 'forward', 'left': 'right'}, 'waypoint': 'left'}
+ -- forward : -0.20
+ -- None : 0.00
+ -- right : 0.00
+ -- left : 0.00
+
+{'inputs': {'light': 'green', 'oncoming': None, 'right': None, 'left': 'right'}, 'waypoint': 'forward'}
+ -- forward : 0.65
+ -- None : 0.00
+ -- right : 0.00
+ -- left : 0.00
+
+{'inputs': {'light': 'red', 'oncoming': 'left', 'right': 'forward', 'left': 'forward'}, 'waypoint': 'left'}
  -- forward : 0.00
  -- None : 0.00
  -- right : 0.00
@@ -494,104 +548,20 @@
  -- right : 0.00
  -- left : 0.00
 
-{'inputs': {'light': 'green', 'oncoming': None, 'right': 'left', 'left': 'right'}, 'waypoint': 'left'}
+{'inputs': {'light': 'red', 'oncoming': 'forward', 'right': None, 'left': 'forward'}, 'waypoint': 'left'}
+ -- forward : 0.00
+ -- None : 0.86
+ -- right : 0.00
+ -- left : -20.26
+
+{'inputs': {'light': 'green', 'oncoming': None, 'right': 'forward', 'left': 'right'}, 'waypoint': 'left'}
  -- forward : 0.00
  -- None : 0.00
  -- right : 0.00
- -- left : -5.34
+ -- left : 0.68
 
-{'inputs': {'light': 'green', 'oncoming': None, 'right': None, 'left': None}, 'waypoint': 'forward'}
- -- forward : 0.00
- -- None : 0.00
- -- right : 0.00
- -- left : 0.00
-
-{'inputs': {'light': 'green', 'oncoming': None, 'right': 'forward', 'left': 'forward'}, 'waypoint': 'left'}
- -- forward : 0.00
- -- None : 0.00
- -- right : 0.00
- -- left : 0.00
-
-{'inputs': {'light': 'red', 'oncoming': 'forward', 'right': 'left', 'left': 'right'}, 'waypoint': 'left'}
- -- forward : 0.00
- -- None : 0.00
- -- right : 0.24
- -- left : 0.00
-
-{'inputs': {'light': 'red', 'oncoming': None, 'right': None, 'left': None}, 'waypoint': 'right'}
- -- forward : 0.00
- -- None : 0.00
- -- right : 0.00
- -- left : 0.00
-
-{'inputs': {'light': 'red', 'oncoming': None, 'right': None, 'left': 'right'}, 'waypoint': 'right'}
- -- forward : 0.00
- -- None : 0.00
- -- right : 0.00
- -- left : -5.16
-
-{'inputs': {'light': 'red', 'oncoming': None, 'right': 'left', 'left': 'left'}, 'waypoint': 'left'}
- -- forward : 0.00
- -- None : 0.00
- -- right : 0.00
- -- left : 0.00
-
-{'inputs': {'light': 'red', 'oncoming': 'forward', 'right': 'left', 'left': 'forward'}, 'waypoint': 'left'}
- -- forward : -20.44
- -- None : 0.00
- -- right : 0.00
- -- left : 0.00
-
-{'inputs': {'light': 'red', 'oncoming': 'left', 'right': None, 'left': 'forward'}, 'waypoint': 'forward'}
- -- forward : -19.88
- -- None : 0.00
- -- right : 0.00
- -- left : 0.00
-
-{'inputs': {'light': 'green', 'oncoming': 'left', 'right': 'left', 'left': 'left'}, 'waypoint': 'left'}
- -- forward : 0.00
- -- None : 0.00
- -- right : 0.00
- -- left : 0.00
-
-{'inputs': {'light': 'green', 'oncoming': 'forward', 'right': None, 'left': 'left'}, 'waypoint': 'left'}
- -- forward : 0.00
- -- None : 0.00
- -- right : 0.00
- -- left : 0.00
-
-{'inputs': {'light': 'green', 'oncoming': 'left', 'right': None, 'left': 'left'}, 'waypoint': 'left'}
- -- forward : 0.00
- -- None : 0.00
- -- right : 0.00
- -- left : 0.00
-
-{'inputs': {'light': 'red', 'oncoming': 'right', 'right': 'left', 'left': None}, 'waypoint': 'left'}
- -- forward : 0.00
- -- None : 1.13
- -- right : 0.00
- -- left : 0.00
-
-{'inputs': {'light': 'green', 'oncoming': None, 'right': None, 'left': 'right'}, 'waypoint': 'forward'}
- -- forward : 0.00
- -- None : 0.00
- -- right : 0.00
- -- left : 0.00
-
-{'inputs': {'light': 'red', 'oncoming': 'left', 'right': 'forward', 'left': None}, 'waypoint': 'right'}
- -- forward : 0.00
- -- None : 0.00
- -- right : 0.00
- -- left : 0.00
-
-{'inputs': {'light': 'red', 'oncoming': 'right', 'right': 'forward', 'left': None}, 'waypoint': 'forward'}
- -- forward : 0.00
- -- None : 0.00
- -- right : 0.72
- -- left : 0.00
-
-{'inputs': {'light': 'green', 'oncoming': 'left', 'right': 'left', 'left': 'forward'}, 'waypoint': 'forward'}
- -- forward : 0.00
+{'inputs': {'light': 'red', 'oncoming': None, 'right': 'left', 'left': 'left'}, 'waypoint': 'right'}
+ -- forward : -4.79
  -- None : 0.00
  -- right : 0.00
  -- left : 0.00
@@ -604,47 +574,35 @@
 
 {'inputs': {'light': 'green', 'oncoming': None, 'right': None, 'left': 'right'}, 'waypoint': 'left'}
  -- forward : 0.00
- -- None : 0.00
+ -- None : -2.48
  -- right : 0.00
- -- left : 0.00
+ -- left : 0.64
 
 {'inputs': {'light': 'green', 'oncoming': 'forward', 'right': None, 'left': 'right'}, 'waypoint': 'forward'}
  -- forward : 0.00
- -- None : 0.00
+ -- None : -2.22
  -- right : 0.00
  -- left : 0.00
 
-{'inputs': {'light': 'red', 'oncoming': 'left', 'right': 'left', 'left': 'left'}, 'waypoint': 'forward'}
- -- forward : 0.00
- -- None : 0.00
+{'inputs': {'light': 'green', 'oncoming': None, 'right': 'forward', 'left': 'forward'}, 'waypoint': 'forward'}
+ -- forward : 0.60
+ -- None : -2.23
  -- right : 0.00
- -- left : 0.00
-
-{'inputs': {'light': 'green', 'oncoming': 'forward', 'right': 'left', 'left': None}, 'waypoint': 'right'}
- -- forward : 0.00
- -- None : 0.00
- -- right : 0.53
- -- left : 0.00
-
-{'inputs': {'light': 'green', 'oncoming': 'forward', 'right': 'right', 'left': 'right'}, 'waypoint': 'right'}
- -- forward : 0.00
- -- None : 0.00
- -- right : 0.50
- -- left : 0.00
-
-{'inputs': {'light': 'green', 'oncoming': 'right', 'right': 'right', 'left': None}, 'waypoint': 'right'}
- -- forward : 0.00
- -- None : 0.00
- -- right : 0.56
  -- left : 0.00
 
 {'inputs': {'light': 'red', 'oncoming': 'left', 'right': None, 'left': 'left'}, 'waypoint': 'left'}
  -- forward : 0.00
  -- None : 0.00
- -- right : 0.00
- -- left : -4.88
+ -- right : -0.04
+ -- left : 0.00
 
 {'inputs': {'light': 'green', 'oncoming': 'left', 'right': None, 'left': 'right'}, 'waypoint': 'right'}
+ -- forward : 0.00
+ -- None : 0.00
+ -- right : 0.00
+ -- left : 0.00
+
+{'inputs': {'light': 'green', 'oncoming': 'right', 'right': 'left', 'left': None}, 'waypoint': 'forward'}
  -- forward : 0.00
  -- None : 0.00
  -- right : 0.00
@@ -653,103 +611,97 @@
 {'inputs': {'light': 'red', 'oncoming': 'left', 'right': 'left', 'left': None}, 'waypoint': 'left'}
  -- forward : 0.00
  -- None : 0.00
- -- right : 0.00
+ -- right : 0.23
  -- left : 0.00
 
-{'inputs': {'light': 'red', 'oncoming': 'forward', 'right': None, 'left': None}, 'waypoint': 'left'}
+{'inputs': {'light': 'red', 'oncoming': 'left', 'right': 'forward', 'left': 'forward'}, 'waypoint': 'forward'}
  -- forward : 0.00
- -- None : 1.13
+ -- None : 0.76
  -- right : 0.00
  -- left : 0.00
-
-{'inputs': {'light': 'red', 'oncoming': 'forward', 'right': 'right', 'left': None}, 'waypoint': 'right'}
- -- forward : 0.00
- -- None : 0.00
- -- right : 0.00
- -- left : -5.00
 
 {'inputs': {'light': 'red', 'oncoming': None, 'right': None, 'left': 'left'}, 'waypoint': 'forward'}
- -- forward : -4.76
- -- None : 0.00
- -- right : 0.00
- -- left : 0.00
-
-{'inputs': {'light': 'red', 'oncoming': 'left', 'right': 'right', 'left': None}, 'waypoint': 'right'}
- -- forward : 0.00
- -- None : 0.00
- -- right : 0.00
- -- left : -5.46
+ -- forward : -7.23
+ -- None : 1.25
+ -- right : -0.06
+ -- left : -5.41
 
 {'inputs': {'light': 'green', 'oncoming': None, 'right': None, 'left': 'forward'}, 'waypoint': 'right'}
- -- forward : 0.28
+ -- forward : 0.00
+ -- None : -2.24
+ -- right : 2.15
+ -- left : 0.00
+
+{'inputs': {'light': 'green', 'oncoming': 'left', 'right': 'left', 'left': 'left'}, 'waypoint': 'right'}
+ -- forward : 0.00
  -- None : 0.00
- -- right : 0.00
+ -- right : 0.70
  -- left : 0.00
 
 {'inputs': {'light': 'green', 'oncoming': 'left', 'right': None, 'left': 'forward'}, 'waypoint': 'forward'}
- -- forward : 0.00
+ -- forward : 1.05
  -- None : 0.00
  -- right : 0.00
- -- left : -19.76
-
-{'inputs': {'light': 'green', 'oncoming': None, 'right': 'forward', 'left': 'left'}, 'waypoint': 'forward'}
- -- forward : 0.00
- -- None : 0.00
- -- right : 0.88
  -- left : 0.00
 
-{'inputs': {'light': 'green', 'oncoming': 'right', 'right': None, 'left': None}, 'waypoint': 'left'}
+{'inputs': {'light': 'green', 'oncoming': None, 'right': 'forward', 'left': 'forward'}, 'waypoint': 'right'}
  -- forward : 0.00
  -- None : 0.00
  -- right : 0.00
  -- left : 0.00
 
-{'inputs': {'light': 'green', 'oncoming': 'right', 'right': None, 'left': 'forward'}, 'waypoint': 'right'}
+{'inputs': {'light': 'red', 'oncoming': 'left', 'right': 'left', 'left': None}, 'waypoint': 'forward'}
  -- forward : 0.00
  -- None : 0.00
  -- right : 0.00
- -- left : -19.99
+ -- left : -5.41
 
-{'inputs': {'light': 'green', 'oncoming': 'left', 'right': 'left', 'left': 'right'}, 'waypoint': 'forward'}
+{'inputs': {'light': 'red', 'oncoming': 'right', 'right': 'left', 'left': None}, 'waypoint': 'forward'}
  -- forward : 0.00
  -- None : 0.00
- -- right : 0.00
+ -- right : -0.15
  -- left : 0.00
 
 {'inputs': {'light': 'green', 'oncoming': 'forward', 'right': 'forward', 'left': None}, 'waypoint': 'forward'}
  -- forward : 0.00
  -- None : 0.00
  -- right : 0.00
- -- left : 0.00
+ -- left : 0.12
 
-{'inputs': {'light': 'green', 'oncoming': 'forward', 'right': 'forward', 'left': None}, 'waypoint': 'right'}
+{'inputs': {'light': 'green', 'oncoming': None, 'right': 'right', 'left': None}, 'waypoint': 'forward'}
  -- forward : 0.00
  -- None : 0.00
  -- right : 0.00
- -- left : -19.74
+ -- left : 0.50
 
-{'inputs': {'light': 'green', 'oncoming': 'right', 'right': 'forward', 'left': 'forward'}, 'waypoint': 'right'}
- -- forward : 0.00
- -- None : 0.00
- -- right : 0.00
- -- left : -19.79
-
-{'inputs': {'light': 'green', 'oncoming': None, 'right': 'forward', 'left': 'left'}, 'waypoint': 'left'}
- -- forward : 0.00
+{'inputs': {'light': 'red', 'oncoming': 'forward', 'right': 'left', 'left': 'right'}, 'waypoint': 'left'}
+ -- forward : -5.10
  -- None : 0.00
  -- right : 0.00
  -- left : 0.00
 
-{'inputs': {'light': 'red', 'oncoming': 'forward', 'right': 'left', 'left': 'forward'}, 'waypoint': 'forward'}
- -- forward : 0.00
+{'inputs': {'light': 'green', 'oncoming': 'right', 'right': None, 'left': 'left'}, 'waypoint': 'forward'}
+ -- forward : 1.25
  -- None : 0.00
  -- right : 0.00
- -- left : -20.33
+ -- left : 0.00
 
-{'inputs': {'light': 'green', 'oncoming': 'right', 'right': 'left', 'left': 'left'}, 'waypoint': 'left'}
+{'inputs': {'light': 'red', 'oncoming': 'forward', 'right': None, 'left': None}, 'waypoint': 'left'}
+ -- forward : -4.64
+ -- None : 1.51
+ -- right : -0.19
+ -- left : 0.00
+
+{'inputs': {'light': 'red', 'oncoming': None, 'right': 'forward', 'left': 'right'}, 'waypoint': 'left'}
  -- forward : 0.00
  -- None : 0.00
  -- right : 0.00
+ -- left : 0.00
+
+{'inputs': {'light': 'red', 'oncoming': 'left', 'right': 'forward', 'left': 'left'}, 'waypoint': 'right'}
+ -- forward : 0.00
+ -- None : 0.00
+ -- right : 0.83
  -- left : 0.00
 
 {'inputs': {'light': 'green', 'oncoming': None, 'right': None, 'left': 'left'}, 'waypoint': 'forward'}
@@ -758,43 +710,31 @@
  -- right : 0.00
  -- left : 0.00
 
-{'inputs': {'light': 'green', 'oncoming': 'left', 'right': 'left', 'left': None}, 'waypoint': 'left'}
- -- forward : 0.78
+{'inputs': {'light': 'green', 'oncoming': 'forward', 'right': None, 'left': 'forward'}, 'waypoint': 'left'}
+ -- forward : 0.24
  -- None : 0.00
  -- right : 0.00
  -- left : 0.00
 
-{'inputs': {'light': 'red', 'oncoming': 'right', 'right': 'forward', 'left': 'left'}, 'waypoint': 'right'}
- -- forward : 0.00
+{'inputs': {'light': 'green', 'oncoming': None, 'right': 'left', 'left': None}, 'waypoint': 'forward'}
+ -- forward : 0.93
  -- None : 0.00
  -- right : 0.00
  -- left : 0.00
 
-{'inputs': {'light': 'green', 'oncoming': 'forward', 'right': 'left', 'left': None}, 'waypoint': 'left'}
- -- forward : 0.00
- -- None : 0.00
- -- right : 0.90
- -- left : 0.00
-
-{'inputs': {'light': 'green', 'oncoming': 'forward', 'right': 'forward', 'left': 'right'}, 'waypoint': 'right'}
- -- forward : 0.00
+{'inputs': {'light': 'red', 'oncoming': 'left', 'right': 'forward', 'left': 'left'}, 'waypoint': 'forward'}
+ -- forward : -20.42
  -- None : 0.00
  -- right : 0.00
  -- left : 0.00
 
 {'inputs': {'light': 'green', 'oncoming': None, 'right': 'forward', 'left': None}, 'waypoint': 'right'}
- -- forward : 0.00
+ -- forward : -0.05
  -- None : 0.00
- -- right : 0.00
+ -- right : 1.22
  -- left : 0.00
 
-{'inputs': {'light': 'green', 'oncoming': 'forward', 'right': 'left', 'left': 'left'}, 'waypoint': 'forward'}
- -- forward : 0.00
- -- None : 0.00
- -- right : 0.00
- -- left : 0.00
-
-{'inputs': {'light': 'green', 'oncoming': 'forward', 'right': 'left', 'left': 'left'}, 'waypoint': 'left'}
+{'inputs': {'light': 'red', 'oncoming': None, 'right': 'forward', 'left': 'forward'}, 'waypoint': 'forward'}
  -- forward : 0.00
  -- None : 0.00
  -- right : 0.00
@@ -803,101 +743,71 @@
 {'inputs': {'light': 'green', 'oncoming': 'forward', 'right': None, 'left': None}, 'waypoint': 'forward'}
  -- forward : 0.00
  -- None : 0.00
- -- right : 0.00
+ -- right : 0.66
  -- left : 0.00
 
 {'inputs': {'light': 'red', 'oncoming': 'right', 'right': None, 'left': 'right'}, 'waypoint': 'right'}
  -- forward : 0.00
  -- None : 0.00
- -- right : 1.30
+ -- right : 0.59
  -- left : 0.00
 
 {'inputs': {'light': 'green', 'oncoming': 'forward', 'right': None, 'left': None}, 'waypoint': 'left'}
- -- forward : 0.00
+ -- forward : -0.20
  -- None : 0.00
  -- right : 0.00
- -- left : 0.00
+ -- left : 1.47
 
 {'inputs': {'light': 'green', 'oncoming': 'left', 'right': 'right', 'left': None}, 'waypoint': 'forward'}
- -- forward : 0.00
- -- None : 0.00
- -- right : 0.61
- -- left : 0.00
-
-{'inputs': {'light': 'red', 'oncoming': None, 'right': 'right', 'left': None}, 'waypoint': 'right'}
- -- forward : 0.00
- -- None : 0.00
+ -- forward : 0.51
+ -- None : -2.39
  -- right : 0.00
  -- left : 0.00
 
 {'inputs': {'light': 'red', 'oncoming': 'left', 'right': None, 'left': None}, 'waypoint': 'left'}
  -- forward : 0.00
- -- None : 0.00
- -- right : 0.00
- -- left : 0.00
-
-{'inputs': {'light': 'green', 'oncoming': None, 'right': 'right', 'left': 'forward'}, 'waypoint': 'left'}
- -- forward : 0.00
- -- None : 0.00
- -- right : 0.00
- -- left : 0.00
-
-{'inputs': {'light': 'red', 'oncoming': None, 'right': 'left', 'left': 'right'}, 'waypoint': 'right'}
- -- forward : 0.00
- -- None : 0.00
- -- right : 0.00
+ -- None : 1.44
+ -- right : 0.37
  -- left : -5.07
+
+{'inputs': {'light': 'red', 'oncoming': 'left', 'right': None, 'left': 'right'}, 'waypoint': 'left'}
+ -- forward : -5.10
+ -- None : 0.00
+ -- right : 0.00
+ -- left : 0.00
 
 {'inputs': {'light': 'green', 'oncoming': None, 'right': 'left', 'left': None}, 'waypoint': 'right'}
  -- forward : 0.00
- -- None : 0.00
+ -- None : -2.98
  -- right : 0.00
- -- left : 0.00
-
-{'inputs': {'light': 'red', 'oncoming': None, 'right': None, 'left': 'right'}, 'waypoint': 'forward'}
- -- forward : 0.00
- -- None : 0.00
- -- right : 0.00
- -- left : 0.00
-
-{'inputs': {'light': 'green', 'oncoming': None, 'right': 'left', 'left': None}, 'waypoint': 'forward'}
- -- forward : 0.00
- -- None : 0.00
- -- right : 0.00
- -- left : 0.00
-
-{'inputs': {'light': 'green', 'oncoming': 'left', 'right': 'forward', 'left': 'forward'}, 'waypoint': 'right'}
- -- forward : 0.00
- -- None : 0.00
- -- right : 0.00
- -- left : -20.49
+ -- left : -0.03
 
 {'inputs': {'light': 'red', 'oncoming': None, 'right': None, 'left': 'forward'}, 'waypoint': 'right'}
- -- forward : 0.00
+ -- forward : -30.62
  -- None : 0.00
  -- right : 0.00
- -- left : 0.00
+ -- left : -20.17
 
 {'inputs': {'light': 'red', 'oncoming': 'forward', 'right': None, 'left': None}, 'waypoint': 'forward'}
- -- forward : 0.00
- -- None : 0.00
+ -- forward : -4.80
+ -- None : 1.14
  -- right : 0.00
- -- left : 0.00
+ -- left : -7.99
 
 {'inputs': {'light': 'red', 'oncoming': 'left', 'right': 'forward', 'left': None}, 'waypoint': 'forward'}
  -- forward : 0.00
  -- None : 0.00
- -- right : 0.00
- -- left : -20.38
-
-{'inputs': {'light': 'red', 'oncoming': None, 'right': 'forward', 'left': 'forward'}, 'waypoint': 'left'}
- -- forward : 0.00
- -- None : 0.00
- -- right : 0.00
+ -- right : 0.52
  -- left : 0.00
 
-{'inputs': {'light': 'red', 'oncoming': 'left', 'right': None, 'left': 'left'}, 'waypoint': 'forward'}
- -- forward : 0.00
+{'inputs': {'light': 'red', 'oncoming': None, 'right': 'forward', 'left': 'forward'}, 'waypoint': 'left'}
+ -- forward : -29.32
+ -- None : 0.00
+ -- right : -9.98
+ -- left : 0.00
+
+{'inputs': {'light': 'green', 'oncoming': 'forward', 'right': 'forward', 'left': 'forward'}, 'waypoint': 'forward'}
+ -- forward : 0.61
  -- None : 0.00
  -- right : 0.00
  -- left : 0.00
@@ -906,139 +816,151 @@
  -- forward : 0.00
  -- None : 0.00
  -- right : 0.00
- -- left : -5.06
+ -- left : 0.00
 
 {'inputs': {'light': 'green', 'oncoming': 'left', 'right': None, 'left': 'left'}, 'waypoint': 'right'}
+ -- forward : 0.33
+ -- None : -2.90
+ -- right : 0.00
+ -- left : 0.00
+
+{'inputs': {'light': 'red', 'oncoming': 'left', 'right': 'right', 'left': None}, 'waypoint': 'right'}
  -- forward : 0.00
  -- None : 0.00
  -- right : 0.00
- -- left : -4.62
-
-{'inputs': {'light': 'red', 'oncoming': 'right', 'right': 'left', 'left': None}, 'waypoint': 'right'}
- -- forward : 0.00
- -- None : 0.00
- -- right : 0.80
- -- left : 0.00
+ -- left : -4.52
 
 {'inputs': {'light': 'green', 'oncoming': 'right', 'right': None, 'left': 'left'}, 'waypoint': 'right'}
  -- forward : 0.00
- -- None : -2.01
- -- right : 0.00
+ -- None : 0.00
+ -- right : 1.25
  -- left : 0.00
 
-{'inputs': {'light': 'red', 'oncoming': None, 'right': None, 'left': None}, 'waypoint': 'left'}
+{'inputs': {'light': 'green', 'oncoming': None, 'right': 'left', 'left': 'forward'}, 'waypoint': 'right'}
  -- forward : 0.00
  -- None : 0.00
  -- right : 0.00
  -- left : 0.00
 
-{'inputs': {'light': 'green', 'oncoming': 'forward', 'right': 'right', 'left': None}, 'waypoint': 'left'}
- -- forward : 0.00
- -- None : 0.00
- -- right : 0.09
- -- left : 0.00
-
-{'inputs': {'light': 'red', 'oncoming': 'left', 'right': None, 'left': None}, 'waypoint': 'right'}
+{'inputs': {'light': 'green', 'oncoming': 'left', 'right': 'left', 'left': 'left'}, 'waypoint': 'forward'}
  -- forward : 0.00
  -- None : 0.00
  -- right : 0.00
  -- left : 0.00
 
-{'inputs': {'light': 'red', 'oncoming': None, 'right': 'right', 'left': None}, 'waypoint': 'left'}
- -- forward : 0.00
- -- None : 0.00
- -- right : 0.00
- -- left : 0.00
-
-{'inputs': {'light': 'red', 'oncoming': 'right', 'right': None, 'left': 'left'}, 'waypoint': 'right'}
- -- forward : 0.00
- -- None : 0.60
- -- right : 0.00
- -- left : 0.00
-
-{'inputs': {'light': 'green', 'oncoming': 'left', 'right': None, 'left': 'forward'}, 'waypoint': 'left'}
- -- forward : 0.00
- -- None : 0.00
- -- right : 0.00
- -- left : -19.78
-
-{'inputs': {'light': 'green', 'oncoming': 'right', 'right': 'forward', 'left': None}, 'waypoint': 'left'}
- -- forward : 0.00
- -- None : 0.00
- -- right : -0.04
- -- left : 0.00
-
-{'inputs': {'light': 'red', 'oncoming': None, 'right': 'left', 'left': 'forward'}, 'waypoint': 'forward'}
- -- forward : 0.00
- -- None : 0.00
- -- right : 0.00
- -- left : 0.00
-
-{'inputs': {'light': 'red', 'oncoming': 'right', 'right': 'right', 'left': None}, 'waypoint': 'left'}
- -- forward : 0.00
- -- None : 0.00
- -- right : 0.00
- -- left : 0.00
-
-{'inputs': {'light': 'red', 'oncoming': None, 'right': 'left', 'left': 'forward'}, 'waypoint': 'left'}
- -- forward : 0.00
- -- None : 0.00
- -- right : 0.00
- -- left : -20.27
-
-{'inputs': {'light': 'red', 'oncoming': None, 'right': 'forward', 'left': 'left'}, 'waypoint': 'left'}
- -- forward : 0.00
- -- None : 0.00
- -- right : 0.00
- -- left : 0.00
-
-{'inputs': {'light': 'red', 'oncoming': 'right', 'right': 'forward', 'left': 'forward'}, 'waypoint': 'forward'}
- -- forward : 0.00
- -- None : 0.00
- -- right : 0.00
- -- left : 0.00
-
-{'inputs': {'light': 'red', 'oncoming': 'right', 'right': None, 'left': 'forward'}, 'waypoint': 'left'}
- -- forward : 0.00
- -- None : 0.54
- -- right : 0.00
- -- left : 0.00
-
-{'inputs': {'light': 'red', 'oncoming': 'right', 'right': 'forward', 'left': 'forward'}, 'waypoint': 'right'}
+{'inputs': {'light': 'red', 'oncoming': 'left', 'right': 'left', 'left': 'left'}, 'waypoint': 'right'}
  -- forward : 0.00
  -- None : 0.76
  -- right : 0.00
  -- left : 0.00
 
-{'inputs': {'light': 'red', 'oncoming': 'left', 'right': 'left', 'left': 'forward'}, 'waypoint': 'right'}
+{'inputs': {'light': 'red', 'oncoming': None, 'right': None, 'left': None}, 'waypoint': 'left'}
+ -- forward : -9.16
+ -- None : 1.97
+ -- right : -0.18
+ -- left : -6.98
+
+{'inputs': {'light': 'red', 'oncoming': 'forward', 'right': None, 'left': 'right'}, 'waypoint': 'left'}
+ -- forward : 0.00
+ -- None : 0.00
+ -- right : 0.46
+ -- left : 0.00
+
+{'inputs': {'light': 'green', 'oncoming': 'forward', 'right': 'left', 'left': 'right'}, 'waypoint': 'forward'}
+ -- forward : 0.00
+ -- None : -2.41
+ -- right : 0.00
+ -- left : 0.00
+
+{'inputs': {'light': 'red', 'oncoming': 'left', 'right': None, 'left': None}, 'waypoint': 'right'}
+ -- forward : -5.38
+ -- None : 1.59
+ -- right : 0.00
+ -- left : 0.00
+
+{'inputs': {'light': 'green', 'oncoming': 'right', 'right': None, 'left': None}, 'waypoint': 'forward'}
+ -- forward : 0.00
+ -- None : 0.00
+ -- right : 0.00
+ -- left : 0.16
+
+{'inputs': {'light': 'green', 'oncoming': 'left', 'right': None, 'left': 'forward'}, 'waypoint': 'left'}
+ -- forward : 0.00
+ -- None : -2.57
+ -- right : 0.00
+ -- left : 0.00
+
+{'inputs': {'light': 'red', 'oncoming': 'left', 'right': 'forward', 'left': 'right'}, 'waypoint': 'left'}
+ -- forward : 0.00
+ -- None : 0.00
+ -- right : 0.97
+ -- left : 0.00
+
+{'inputs': {'light': 'red', 'oncoming': None, 'right': 'left', 'left': 'forward'}, 'waypoint': 'left'}
+ -- forward : 0.00
+ -- None : 0.61
+ -- right : 0.00
+ -- left : 0.00
+
+{'inputs': {'light': 'red', 'oncoming': None, 'right': 'forward', 'left': 'left'}, 'waypoint': 'left'}
+ -- forward : 0.00
+ -- None : 1.03
+ -- right : 0.00
+ -- left : -20.04
+
+{'inputs': {'light': 'red', 'oncoming': 'right', 'right': None, 'left': 'forward'}, 'waypoint': 'left'}
+ -- forward : -19.63
+ -- None : 0.00
+ -- right : 0.00
+ -- left : 0.00
+
+{'inputs': {'light': 'green', 'oncoming': 'right', 'right': 'right', 'left': None}, 'waypoint': 'right'}
+ -- forward : 0.00
+ -- None : 0.00
+ -- right : 0.00
+ -- left : 0.50
+
+{'inputs': {'light': 'red', 'oncoming': 'right', 'right': 'forward', 'left': 'forward'}, 'waypoint': 'right'}
+ -- forward : 0.00
+ -- None : 0.26
+ -- right : 0.00
+ -- left : 0.00
+
+{'inputs': {'light': 'red', 'oncoming': 'left', 'right': None, 'left': 'right'}, 'waypoint': 'forward'}
  -- forward : 0.00
  -- None : 0.00
  -- right : 0.00
  -- left : 0.00
 
-{'inputs': {'light': 'green', 'oncoming': None, 'right': 'forward', 'left': 'forward'}, 'waypoint': 'right'}
- -- forward : 0.00
+{'inputs': {'light': 'green', 'oncoming': 'forward', 'right': 'right', 'left': None}, 'waypoint': 'forward'}
+ -- forward : 1.15
  -- None : 0.00
- -- right : 0.78
+ -- right : 0.00
  -- left : 0.00
 
 {'inputs': {'light': 'red', 'oncoming': 'forward', 'right': None, 'left': 'forward'}, 'waypoint': 'right'}
  -- forward : 0.00
  -- None : 0.00
- -- right : 0.00
- -- left : -20.01
+ -- right : -14.98
+ -- left : 0.00
 
 {'inputs': {'light': 'red', 'oncoming': 'forward', 'right': 'left', 'left': None}, 'waypoint': 'left'}
- -- forward : 0.00
+ -- forward : -5.37
  -- None : 0.00
  -- right : 0.00
- -- left : 0.00
+ -- left : -5.22
 
 {'inputs': {'light': 'green', 'oncoming': None, 'right': 'right', 'left': 'left'}, 'waypoint': 'left'}
  -- forward : 0.00
  -- None : 0.00
  -- right : 0.00
- -- left : 0.00
+ -- left : 0.49
+
+{'inputs': {'light': 'green', 'oncoming': 'forward', 'right': None, 'left': 'left'}, 'waypoint': 'left'}
+ -- forward : 0.00
+ -- None : 0.00
+ -- right : 0.00
+ -- left : 1.24
 
 {'inputs': {'light': 'green', 'oncoming': 'left', 'right': None, 'left': 'right'}, 'waypoint': 'left'}
  -- forward : 0.00
@@ -1046,23 +968,17 @@
  -- right : 0.00
  -- left : 0.00
 
-{'inputs': {'light': 'red', 'oncoming': 'right', 'right': None, 'left': None}, 'waypoint': 'left'}
+{'inputs': {'light': 'red', 'oncoming': 'forward', 'right': None, 'left': 'right'}, 'waypoint': 'forward'}
  -- forward : 0.00
  -- None : 0.00
- -- right : 0.00
- -- left : 0.00
+ -- right : 0.33
+ -- left : -5.19
 
-{'inputs': {'light': 'red', 'oncoming': None, 'right': 'forward', 'left': 'left'}, 'waypoint': 'forward'}
- -- forward : 0.00
- -- None : 0.72
- -- right : 0.00
- -- left : 0.00
-
-{'inputs': {'light': 'red', 'oncoming': 'forward', 'right': 'forward', 'left': 'forward'}, 'waypoint': 'right'}
+{'inputs': {'light': 'red', 'oncoming': 'forward', 'right': None, 'left': 'forward'}, 'waypoint': 'forward'}
  -- forward : 0.00
  -- None : 0.00
- -- right : 0.00
- -- left : -19.76
+ -- right : -14.58
+ -- left : 0.00
 
 {'inputs': {'light': 'red', 'oncoming': 'right', 'right': 'forward', 'left': 'left'}, 'waypoint': 'left'}
  -- forward : 0.00
@@ -1070,41 +986,23 @@
  -- right : 0.00
  -- left : 0.00
 
-{'inputs': {'light': 'red', 'oncoming': None, 'right': 'right', 'left': None}, 'waypoint': 'forward'}
- -- forward : 0.00
- -- None : 0.00
- -- right : 0.00
- -- left : 0.00
-
-{'inputs': {'light': 'green', 'oncoming': 'right', 'right': 'left', 'left': 'forward'}, 'waypoint': 'forward'}
- -- forward : 0.00
- -- None : 0.00
- -- right : 0.00
- -- left : 0.00
-
 {'inputs': {'light': 'red', 'oncoming': 'forward', 'right': None, 'left': None}, 'waypoint': 'right'}
  -- forward : 0.00
- -- None : 0.00
- -- right : 0.00
- -- left : 0.00
-
-{'inputs': {'light': 'red', 'oncoming': None, 'right': 'left', 'left': 'left'}, 'waypoint': 'forward'}
- -- forward : 0.00
- -- None : 0.00
- -- right : 0.00
- -- left : 0.00
+ -- None : 0.13
+ -- right : 1.09
+ -- left : -7.61
 
 {'inputs': {'light': 'green', 'oncoming': 'left', 'right': 'forward', 'left': 'left'}, 'waypoint': 'left'}
- -- forward : 0.00
+ -- forward : -0.34
  -- None : 0.00
  -- right : 0.00
  -- left : 0.00
 
-{'inputs': {'light': 'red', 'oncoming': None, 'right': 'right', 'left': 'forward'}, 'waypoint': 'left'}
+{'inputs': {'light': 'red', 'oncoming': None, 'right': 'right', 'left': 'right'}, 'waypoint': 'forward'}
  -- forward : 0.00
  -- None : 0.00
  -- right : 0.00
- -- left : 0.00
+ -- left : -5.25
 
 {'inputs': {'light': 'red', 'oncoming': None, 'right': 'right', 'left': 'left'}, 'waypoint': 'left'}
  -- forward : 0.00
@@ -1118,20 +1016,20 @@
  -- right : 0.00
  -- left : 0.00
 
-{'inputs': {'light': 'red', 'oncoming': 'left', 'right': 'left', 'left': None}, 'waypoint': 'forward'}
+{'inputs': {'light': 'green', 'oncoming': 'right', 'right': None, 'left': 'left'}, 'waypoint': 'left'}
  -- forward : 0.00
- -- None : 0.00
+ -- None : -2.51
  -- right : 0.00
  -- left : 0.00
 
-{'inputs': {'light': 'red', 'oncoming': None, 'right': 'left', 'left': 'forward'}, 'waypoint': 'right'}
+{'inputs': {'light': 'green', 'oncoming': None, 'right': 'left', 'left': 'right'}, 'waypoint': 'forward'}
  -- forward : 0.00
  -- None : 0.00
  -- right : 0.00
- -- left : 0.00
+ -- left : 0.82
 
 {'inputs': {'light': 'red', 'oncoming': 'left', 'right': 'right', 'left': None}, 'waypoint': 'left'}
- -- forward : -4.73
+ -- forward : -5.01
  -- None : 0.00
  -- right : 0.00
  -- left : 0.00
@@ -1139,13 +1037,7 @@
 {'inputs': {'light': 'green', 'oncoming': 'left', 'right': 'forward', 'left': None}, 'waypoint': 'left'}
  -- forward : 0.00
  -- None : 0.00
- -- right : 0.00
- -- left : 0.00
-
-{'inputs': {'light': 'green', 'oncoming': 'left', 'right': 'forward', 'left': None}, 'waypoint': 'forward'}
- -- forward : 1.01
- -- None : 0.00
- -- right : 0.00
+ -- right : 0.07
  -- left : 0.00
 
 {'inputs': {'light': 'red', 'oncoming': 'left', 'right': 'left', 'left': None}, 'waypoint': 'right'}
@@ -1167,21 +1059,21 @@
  -- left : 0.00
 
 {'inputs': {'light': 'red', 'oncoming': None, 'right': 'left', 'left': None}, 'waypoint': 'left'}
- -- forward : -4.69
- -- None : 0.00
+ -- forward : 0.00
+ -- None : 1.35
  -- right : 0.00
  -- left : 0.00
 
-{'inputs': {'light': 'green', 'oncoming': 'forward', 'right': None, 'left': 'forward'}, 'waypoint': 'left'}
+{'inputs': {'light': 'red', 'oncoming': None, 'right': 'right', 'left': 'forward'}, 'waypoint': 'right'}
  -- forward : 0.00
  -- None : 0.00
  -- right : 0.00
- -- left : 0.00
+ -- left : -20.09
 
 {'inputs': {'light': 'green', 'oncoming': 'left', 'right': None, 'left': None}, 'waypoint': 'right'}
- -- forward : 0.00
- -- None : 0.00
- -- right : 0.00
+ -- forward : -0.01
+ -- None : -2.62
+ -- right : 1.62
  -- left : 0.00
 
 {'inputs': {'light': 'red', 'oncoming': None, 'right': 'right', 'left': 'left'}, 'waypoint': 'right'}
@@ -1190,45 +1082,45 @@
  -- right : 0.00
  -- left : 0.00
 
-{'inputs': {'light': 'green', 'oncoming': None, 'right': 'left', 'left': 'forward'}, 'waypoint': 'right'}
+{'inputs': {'light': 'red', 'oncoming': 'left', 'right': 'left', 'left': 'forward'}, 'waypoint': 'forward'}
  -- forward : 0.00
  -- None : 0.00
  -- right : 0.00
  -- left : 0.00
 
-{'inputs': {'light': 'red', 'oncoming': 'left', 'right': None, 'left': 'forward'}, 'waypoint': 'right'}
- -- forward : 0.00
+{'inputs': {'light': 'red', 'oncoming': 'left', 'right': None, 'left': 'left'}, 'waypoint': 'right'}
+ -- forward : -4.85
  -- None : 0.00
  -- right : 0.00
- -- left : -20.07
+ -- left : -4.95
 
-{'inputs': {'light': 'red', 'oncoming': 'forward', 'right': 'right', 'left': 'left'}, 'waypoint': 'left'}
+{'inputs': {'light': 'red', 'oncoming': 'right', 'right': None, 'left': None}, 'waypoint': 'left'}
  -- forward : 0.00
- -- None : 0.00
+ -- None : 0.89
  -- right : 0.00
- -- left : 0.00
-
-{'inputs': {'light': 'red', 'oncoming': 'forward', 'right': None, 'left': 'forward'}, 'waypoint': 'forward'}
- -- forward : 0.00
- -- None : 0.00
- -- right : 0.00
- -- left : -19.69
+ -- left : -20.00
 
 {'inputs': {'light': 'green', 'oncoming': None, 'right': 'left', 'left': 'forward'}, 'waypoint': 'forward'}
- -- forward : 0.00
- -- None : 0.00
- -- right : 0.28
- -- left : 0.00
-
-{'inputs': {'light': 'red', 'oncoming': 'right', 'right': 'left', 'left': None}, 'waypoint': 'forward'}
- -- forward : 0.00
+ -- forward : 1.02
  -- None : 0.00
  -- right : 0.00
  -- left : 0.00
 
-{'inputs': {'light': 'green', 'oncoming': None, 'right': 'forward', 'left': None}, 'waypoint': 'left'}
+{'inputs': {'light': 'green', 'oncoming': None, 'right': 'forward', 'left': 'right'}, 'waypoint': 'right'}
+ -- forward : 0.37
+ -- None : 0.00
+ -- right : 0.00
+ -- left : 0.00
+
+{'inputs': {'light': 'red', 'oncoming': 'left', 'right': 'left', 'left': 'forward'}, 'waypoint': 'left'}
  -- forward : 0.00
  -- None : 0.00
+ -- right : 0.00
+ -- left : -20.28
+
+{'inputs': {'light': 'red', 'oncoming': 'right', 'right': None, 'left': 'right'}, 'waypoint': 'forward'}
+ -- forward : 0.00
+ -- None : 1.37
  -- right : 0.00
  -- left : 0.00
 

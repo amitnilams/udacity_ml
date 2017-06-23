@@ -3,7 +3,6 @@ import math
 from environment import Agent, Environment
 from planner import RoutePlanner
 from simulator import Simulator
-import collections
 
 class LearningAgent(Agent):
     """ An agent that learns to drive in the Smartcab world.
@@ -20,6 +19,7 @@ class LearningAgent(Agent):
         self.epsilon = epsilon   # Random exploration factor
         self.alpha = alpha       # Learning factor
 
+
         ###########
         ## TO DO ##
         ###########
@@ -27,6 +27,7 @@ class LearningAgent(Agent):
         self.gamma = 0
         self.trial = 0
         self.epsilon0 = epsilon
+        self.decay_constant = 0.01
 
 
     def reset(self, destination=None, testing=False):
@@ -47,13 +48,11 @@ class LearningAgent(Agent):
         self.trial += 1
 
         if testing:
-            self.epsilon = 0
-            self.alpha = 0
+            self.epsilon = 0.0
+            self.alpha = 0.0
         else:
             #self.epsilon -= 0.05  #default learning
-            self.epsilon = self.epsilon0 * math.exp(-self.alpha * self.trial)
-
-
+            self.epsilon = self.epsilon0 * math.exp(-self.decay_constant * self.trial)  # optimized learning
 
         return None
 
@@ -106,10 +105,10 @@ class LearningAgent(Agent):
         # If it is not, create a new dictionary for that state
         #   Then, for each action available, set the initial Q-value to 0.0
 
-        if state not in self.Q.keys():
+        if state not in self.Q:
             self.Q[state] = dict()
 
-        for action in self.valid_actions:
+            for action in self.valid_actions:
                 self.Q[state][action] = 0.0
 
         return
@@ -136,21 +135,12 @@ class LearningAgent(Agent):
         if not self.learning:
             action = random.choice(self.valid_actions)
         else:
-            explore = random.uniform(0,1)
-            if explore >= self.epsilon:
+            random_v = random.random()
+            if self.epsilon > random_v:
                 action = random.choice(self.valid_actions)
             else:
-                actions = self.Q[state].keys()
-                max_action = actions[0]
-                for each_action in actions:
-                    if self.Q[state][each_action] > self.Q[state][max_action]:
-                        max_action = each_action
-                    elif self.Q[state][each_action] == self.Q[state][max_action]:
-                        choice = random.choice ([True, False])
-                        if choice == True:
-                            max_action = each_action
-
-                action = max_action
+                actions = [k for k, v in self.Q[state].items() if v == self.get_maxQ(state)]
+                action = random.choice(actions)
 
         return action
 
@@ -166,7 +156,10 @@ class LearningAgent(Agent):
         # When learning, implement the value iteration update rule
         #   Use only the learning rate 'alpha' (do not use the discount factor 'gamma')
 
-        self.Q[state][action] += self.alpha * reward
+        if self.learning:
+            delta = self.alpha * (reward - self.Q[state][action])
+            self.Q[state][action] = self.Q[state][action] + delta
+
 
         return
 
@@ -203,8 +196,10 @@ def run():
     #   learning   - set to True to force the driving agent to use Q-learning
     #    * epsilon - continuous value for the exploration factor, default is 1
     #    * alpha   - continuous value for the learning rate, default is 0.5
-    agent = env.create_agent(LearningAgent, alpha=0.01, epsilon=0.7, learning=True)
-    #agent = env.create_agent(LearningAgent, learning=False) # for default-learning
+
+    agent = env.create_agent(LearningAgent, alpha=0.1, epsilon=0.9, learning=True) # optimized learning
+    #agent = env.create_agent(LearningAgent, learning=True)  # default learning
+    #agent = env.create_agent(LearningAgent) # no learning
     
     ##############
     # Follow the driving agent
@@ -219,14 +214,16 @@ def run():
     #   display      - set to False to disable the GUI if PyGame is enabled
     #   log_metrics  - set to True to log trial and simulation results to /logs
     #   optimized    - set to True to change the default log file name
-    sim = Simulator(env, update_delay=0.01, log_metrics=True, display=True, optimized=True)
-    
+    sim = Simulator(env, update_delay=0.01, log_metrics=True, display=False, optimized=True) #optimized learning
+    #sim = Simulator(env, update_delay=0.01, log_metrics=True, display=False) # default or no learning
+
     ##############
     # Run the simulator
     # Flags:
     #   tolerance  - epsilon tolerance before beginning testing, default is 0.05 
     #   n_test     - discrete number of testing trials to perform, default is 0
-    sim.run(n_test=10, tolerance=0.01)
+    sim.run(n_test=10, tolerance=0.01) # optimized learning
+    #sim.run(n_test=10) # default or  no learning
 
 
 if __name__ == '__main__':
