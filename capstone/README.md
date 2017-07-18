@@ -14,13 +14,13 @@ Instructions for running the scripts
 
 
 	TOP LEVEL DIR
-		DIR 'data'
+		DIR data
 		|
-		----- DIR 'train-jpg' = keep all images for training
+		----- DIR train-jpg = keep all images for training
 		|
-		------DIR 'test-jpg'  = keep all images for testing
+		------DIR test-jpg  = keep all images for testing
 		|
-		------DIR 'test-jpg-additional' = keep additonal images for testing
+		------DIR test-jpg-additional = keep additonal images for testing
 
 
 		DIR notebooks 
