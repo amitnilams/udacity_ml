@@ -10,6 +10,11 @@ Instructions for running the scripts
 
 1) Create a top level directory
 2) Create a 'data' directory under it and copy training files and test files under it
+
+	URL for data - https://www.kaggle.com/c/planet-understanding-the-amazon-from-space/data
+	(copy only jpeg images)
+
+
    The following should be the dir structure - 
 
 
@@ -23,6 +28,7 @@ Instructions for running the scripts
 		---------------DIR test-jpg  = keep all images for testing
 		|
 		---------------DIR test-jpg-additional = keep additonal images for testing
+
 
 
 		DIR notebooks 
