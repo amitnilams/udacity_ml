@@ -16,11 +16,11 @@ Instructions for running the scripts
 	TOP LEVEL DIR
 		DIR data
 		|
-		----- DIR train-jpg = keep all images for training
+		-------------- DIR train-jpg = keep all images for training
 		|
-		------DIR test-jpg  = keep all images for testing
+		---------------DIR test-jpg  = keep all images for testing
 		|
-		------DIR test-jpg-additional = keep additonal images for testing
+		---------------DIR test-jpg-additional = keep additonal images for testing
 
 
 		DIR notebooks 
@@ -37,9 +37,14 @@ Instructions for running the scripts
 
 
 3) Following is the order for running the scripts 
+
 		* Run pre_process.ipynb to pre-process training and test images
+
 		* Run NewKerasTrain.py for training the model
+
 		* Run NewKerasValidate.py to calculate the threshold for labels
+
 		* Run NewKerasTest.py to generate output labels against test images
+
 		* Run AmazonPredict to generate output labels and visualizations. 
 			(This will also create Kaggle final submission file)
