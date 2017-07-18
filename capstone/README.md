@@ -14,6 +14,8 @@ Instructions for running the scripts
 
 
 	TOP LEVEL DIR
+
+
 		DIR data
 		|
 		-------------- DIR train-jpg = keep all images for training
