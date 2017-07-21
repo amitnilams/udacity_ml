@@ -42,8 +42,8 @@ Instructions for running the scripts
 		--------------NewKerasTrain.py  = for training the model
 		|
 		--------------NewKerasTest.py = for predicting results against test images
-                |
-                --------------NewKerasValidate.py  = for fine tuning threshold and calculating F1 score
+		|
+		--------------NewKerasValidate.py  = for fine tuning threshold and calculating F1 score
 
 
 3) Following is the order for running the scripts 
