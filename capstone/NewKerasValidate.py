@@ -22,6 +22,11 @@ from keras import backend
 
 
 
+# this is the sequential model as defined with Keras layers
+# we have convolution filters - 32, 64, 128 and 256 followed by maxpool and dropout
+# This is followed by Dense layer of 256 and final classification layer of 17 
+# each layer  has RELU activation except last sigmoid activation for classification
+
 def define_model(input_shape=(64, 64, 3)):
     model = Sequential()
 
@@ -57,7 +62,7 @@ def define_model(input_shape=(64, 64, 3)):
 
 
 
-
+# this routine loads a batch of training data from pickle file
 def load_preprocess_training_batch(batch_id):
     """
     Load the Preprocessed Training data and return them in arrays of features and labels
@@ -73,13 +78,14 @@ def load_preprocess_training_batch(batch_id):
 
 
 
-
+# routine to call fbeta_score of sklearn
 def f2_score(y_true, y_pred):
     y_true, y_pred, = np.array(y_true), np.array(y_pred)
     return fbeta_score(y_true, y_pred, beta=2, average='samples')
 
 
-
+# This is the algorithm that finds optimum threshold for predicted labels
+# It oterates over a range of values between 0 and 1 to maximize fbeta_score
 def find_f2score_threshold(p_valid, y_valid, verbose=True):
     
     print p_valid.shape, y_valid.shape
@@ -96,6 +102,8 @@ def find_f2score_threshold(p_valid, y_valid, verbose=True):
     return best
 
 
+# This routine calculates the p_valid or the predicted values for the whole training set
+# it loads the best model obtained after training to predict the labels
 def validation_batch(start, end, num_folds = 10):
     
     input_shape=(64, 64, 3)
@@ -130,6 +138,11 @@ def validation_batch(start, end, num_folds = 10):
     return y_valid, results
 
 
+# start of the script
+# it calls above functions to load the best weights after training
+# It calculates the p_valid or the predicted labels for training data
+# which is then used to obtain the optimum threshold and the fbeta score
+# It also obtains the final accuracy obtained with the best weights
 y_valid, p_valid = validation_batch(0, 41, 10)
 find_f2score_threshold(np.array(p_valid), np.array(y_valid))
 print 'accuracy = ', accuracy_score(np.array(y_valid), np.array(p_valid > 0.2))

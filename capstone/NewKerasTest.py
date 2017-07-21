@@ -21,7 +21,10 @@ from keras.callbacks import Callback, EarlyStopping
 from keras import backend
 
 
-# In[5]:
+# this is the sequential model as defined with Keras layers
+# we have convolution filters - 32, 64, 128 and 256 followed by maxpool and dropout
+# This is followed by Dense layer of 256 and final classification layer of 17 
+# each layer  has RELU activation except last sigmoid activation for classification
 
 def define_model(input_shape=(64, 64, 3)):
     model = Sequential()
@@ -57,6 +60,7 @@ def define_model(input_shape=(64, 64, 3)):
     return model
 
 
+# This routine loads a batch of test images from pickle file into memory
 def load_preprocess_test_batch(batch_id):
     """
      Load the Preprocessed Test data and return them in arrays of features and corresponding filename
@@ -71,7 +75,8 @@ def load_preprocess_test_batch(batch_id):
 
 
  
-
+# This  routine loads result pickle file into memory, 
+# loads the best weights for model and predicts teh results.
 def test_results(start, end, num_folds=10):
     
     input_shape=(64, 64, 3)
@@ -105,5 +110,6 @@ def test_results(start, end, num_folds=10):
     print 'pickle_filename = ', pickle_filename   
     pickle.dump((filepaths, results), open(pickle_filename, 'wb'))
                 
-                         
+
+# start of script
 test_results (0, 62, num_folds=10)                            

@@ -37,6 +37,8 @@ Instructions for running the scripts
 		|
 		--------------pre_process.ipynb = run this first to pre-process images
 		|
+		--------------analysis.ipynb =  (optional) run this for analyzing training data 
+		|
 		--------------NewKerasTrain.py  = for training the model
 		|
 		--------------NewKerasTest.py = for predicting results against test images

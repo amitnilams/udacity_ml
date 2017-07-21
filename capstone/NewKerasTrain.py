@@ -21,6 +21,11 @@ from keras.callbacks import Callback, EarlyStopping
 from keras import backend
 
 
+# this is the sequential model as defined with Keras layers
+# we have convolution filters - 32, 64, 128 and 256 followed by maxpool and dropout
+# This is followed by Dense layer of 256 and final classification layer of 17 
+# each layer  has RELU activation except last sigmoid activation for classification
+
 def define_model(input_shape=(64, 64, 3)):
     model = Sequential()
 
@@ -55,6 +60,7 @@ def define_model(input_shape=(64, 64, 3)):
     return model
 
 
+# This routine calculates fbeta score 
 def _fbeta_score(model, X_valid, y_valid):
     
     p_valid = model.predict(X_valid)
@@ -80,7 +86,7 @@ def _fbeta_score(model, X_valid, y_valid):
 
 
 
-
+# this routine loads a batch of training data from pickle file
 def load_preprocess_training_batch(batch_id):
     """
      Load the Preprocessed Training data and return them in arrays of features and labels
@@ -95,6 +101,7 @@ def load_preprocess_training_batch(batch_id):
 
 
 
+# This routine runs KFold cross validation on a given training and validation set
 def run_KFold(X_train, Y_train, X_valid, Y_valid, num_fold):
     
     print '######## run kFold, num_fold = ', num_fold, '##########'
@@ -131,7 +138,8 @@ def run_KFold(X_train, Y_train, X_valid, Y_valid, num_fold):
         
                                            
 
-# execute above function in a loop  below                  
+# This routine runs KFold cross validation on whole training set by calling 
+# above functions in a loop  below                  
 def run_training_kfold(start, end, nfolds):
     
     x_train = []
@@ -163,6 +171,8 @@ def run_training_kfold(start, end, nfolds):
         run_KFold(X_train, Y_train, X_valid, Y_valid, num_fold)      
         num_fold += 1
 
+
+# start of script
 run_training_kfold(0, 41, nfolds = 10)
                             
 
